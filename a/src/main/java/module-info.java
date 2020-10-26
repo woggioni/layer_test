@@ -1,3 +1,3 @@
-module test.a {
+module mod.a {
     exports a;
 }

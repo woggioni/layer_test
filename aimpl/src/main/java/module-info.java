@@ -1,4 +1,4 @@
-module test.aimpl {
-    requires test.a;
+module mod.aimpl {
+    requires mod.a;
     provides a.A with aimpl.AImpl;
 }

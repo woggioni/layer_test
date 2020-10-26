@@ -1,5 +1,5 @@
 package a;
 
 public interface A {
-    void hello();
+    int square(int n);
 }

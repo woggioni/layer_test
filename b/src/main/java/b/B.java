@@ -1,5 +1,5 @@
 package b;
 
 public interface B {
-    void hello();
+    int pow(int base, int exp);
 }

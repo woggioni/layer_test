@@ -15,4 +15,8 @@ allprojects {
         addLombok("compileOnly", "annotationProcessor", "testCompileOnly", "testAnnotationProcessor")
         addJunitJupiter()
     }
+
+    tasks.named<Test>("test") {
+        useJUnitPlatform()
+    }
 }
